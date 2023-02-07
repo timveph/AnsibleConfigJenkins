@@ -70,7 +70,7 @@
           - python3-pip
 
     - name: install python packages
-      ansible.builtin.apt:
+      ansible.builtin.pip:
         name: 
           - Flask
           - pytest
