@@ -1,6 +1,6 @@
 all:
   children:
-    jenkins:
+    deploy:
       hosts:
         10.0.1.11
   vars:
