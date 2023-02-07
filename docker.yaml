@@ -1,4 +1,4 @@
-- hosts: deploy
+- hosts: localhost
   become: yes
   ignore_errors: true 
   vars:
