@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: jenkins
   become: yes
   ignore_errors: true 
   vars:
